@@ -1,4 +1,4 @@
-Home Assistant Custom Integration for Midea Group(Hualing, Senville, Klimaire, AirCon, Century, Pridiom, Thermocore, Comfee, Alpine Home Air, Artel, Beko, Electrolux, Galactic, Idea, Inventor, Kaisai, Mitsui, Mr. Cool, Neoclima, Olimpia Splendid, Pioneer, QLIMA, Rotenso, Royal Clima, Qzen, Toshiba, Carrier, Goodman, Friedrich, Samsung, Kenmore, Trane, Lennox, LG and much more) Air Conditioners via LAN.
+Home Assistant Custom Integration for Midea Group(Nippon Energy, Hualing, Senville, Klimaire, AirCon, Century, Pridiom, Thermocore, Comfee, Alpine Home Air, Artel, Beko, Electrolux, Galactic, Idea, Inventor, Kaisai, Mitsui, Mr. Cool, Neoclima, Olimpia Splendid, Pioneer, QLIMA, Rotenso, Royal Clima, Qzen, Toshiba, Carrier, Goodman, Friedrich, Samsung, Kenmore, Trane, Lennox, LG and much more) Air Conditioners via LAN.
 
 Tested with Home Assistant 2021.7.2.
 
@@ -70,6 +70,7 @@ climate:
   ***Note***: 
   - This component only supports devices with model 0xac (air conditioner) and words `supported` in the output. 
   - Configure v3 devices need `token` and `k1`.
+  - Whenyou have a device which is V3 and you don't set the token or k1 key attibutes, you can't control your device.
   - You `midea-discover`  when broadcasts don't work.
   - `midea-discover` use a registered account of `MSmartHome` [[AppStore]](https://apps.apple.com/sg/app/midea-home/id1254346490) [[GooglePlay]](https://play.google.com/store/apps/details?id=com.midea.ai.overseas) to get Token and K1(key).
   it's my account, but now it’s an open account.
